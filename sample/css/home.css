@@ -1,0 +1,77 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+img{
+    height: 653px;
+    width: 1360px;
+}
+.simco{
+    height: 150px;
+    width: 700px;
+    position: absolute;
+    bottom: 480px;
+    left: 350px;
+}
+.nav{
+    position: absolute;
+    bottom: 420px;
+}
+.nav ul{
+    display: inline-block;
+    padding-left: 300px;
+    list-style: none;
+    padding-top: 25px;
+    border-radius: 25px;
+    
+
+}
+.nav ul li{
+    height: 20px;
+    padding-right: 10px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    float: left;
+    text-decoration: none;
+    font-weight: 400px;
+    
+}
+.nav ul li:first-child{
+    border-radius: 5px 0 0 5px;
+}
+.nav ul li:last-child{
+    border-radius: 0 5px 5px 0;
+}
+.nav ul li a{
+    padding: 1px;
+    padding-right: 30px;
+    border-right: 2px solid;
+    text-decoration: none;
+    color: black;
+    font-family: calibri;
+    justify-content: center;
+
+}
+ .nav ul li a:hover{
+    font-weight: bold;
+    color: darkblue;
+ }
+
+.btn{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: darkblue;
+    font-size: larger;
+    color: white;
+    padding: 8px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px 5px 5px 5px;
+    position: absolute;
+    left: 620px;
+    bottom:100px ;
+    font-size: bold;
+}

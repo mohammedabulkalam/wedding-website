@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(/img/pink.jpeg);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav{
+    position: absolute;
+}
+.nav ul{
+    margin-left: 300px;
+    display: inline-block;
+    list-style: none;
+    margin-top: 25px;
+    border-radius: 25px;
+
+}
+.nav ul li{
+    height: 20px;
+    padding-right: 10px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    background-color: pink;
+    float: left;
+    text-decoration: none;
+    
+}
+.nav ul li:first-child{
+    border-radius: 5px 0 0 5px;
+}
+.nav ul li:last-child{
+    border-radius: 0 5px 5px 0;
+}
+.nav ul li a{
+    margin: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-right: 2px solid;
+    text-decoration: none;
+    color: #eee;
+    font-family: calibri;
+    justify-content: center;
+}
+.nav ul li a:hover{
+    font-weight: bold;
+}
+.img1{
+    height:475px;
+    width: 550px;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+.fa{
+    position: absolute;
+}
+.box{
+    height: 450px;
+    width: 500px;
+    background-color: white;
+    position: absolute;
+    left:700px;
+    top:170px;
+}
+.img2{
+    height: 60px;
+    margin-left: 100px;   
+    margin-top: 30px; 
+}
+.img3{
+    height: 30px;
+    margin-left: 300px;
+}
+.dash{
+    color: pink;
+    margin-left: 40px;
+}
+.price ul{
+    text-align: center;
+}
+.price ul li{
+    list-style: none;
+    margin-top: 40px; 
+}
+.price ul li a{
+    text-decoration: none;
+    padding: 8px;
+    color: black;
+    font-family: calibri;
+    font-size: x-large;
+    padding-right: 30px;
+    padding-left: 40px;
+    
+}
+.price ul li a:hover{
+    color: white;
+    background-color: pink;
+    border-radius: 50px;
+
+}
+span{
+    font-size: large;
+}
+p{
+    padding-left:50px;
+    color: purple;
+    width: 20px;
+}
+
+
